@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin-left: 4%;
+	margin-right: 10%;
+	align-content: center;
+  background-color: #B1B1B1;
+	font-family: "Helvetica", Times, serif;
+}
+header{
+	
+	font-family: "Helvetica", Times, serif;
+	
+}
+h1 {
+  color: #000000;
+	font: bold normal;
+	font-size: 1.5em;
+	font-weight: 800;
+}
+	#name{
+	
+	font: italic;
+}
+#email{
+	color: #131313;
+	
+}
+
+p.contact{
+		font-size: 0.8em;
+		
+
+}
+h2.contact{
+	font-size: 0.9em;
+	opacity: 0.70;
+}
+
+h2 {
+  color: #000000;
+	font: bold normal;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+h3 {
+  color: #000000;
+	font: bold normal;
+	font-size: .5em;
+	font-weight: 400;
+}
+
+h4 {
+  color: #000000;
+	font: bold normal;
+	font-size: .25em;
+	font-weight: 400;
+}
+p {
+  color: #000000;
+	font: bold normal;
+	
+	font-size: .25em;
+	font-weight: 300;
+}
+
+ul {
+	
+	color: #000000;
+	font: bold normal;
+	font-size: .25em;
+	font-weight: 100;
+	padding-right: 70%;
+	
+}
+
+a.experience{
+	color: #463DC8;
+	font: bold normal;
+	font-size: .25em;
+	font-weight: 100;
+	margin-left: 2%;
+}
+a.portfolio{
+	color: #463DC8;
+	font: bold normal;
+	font-size: .25em;
+	font-weight: 100;
+	
+}
+
+
+#instagram {
+  list-style-image: url('instagramsmall.png');
+	opacity: 0.85;
+	
+}
+#linkedin {
+  list-style-image: url('linkedin2.png');
+	opacity: 0.85;
+	
+}
+
+
+a:link {
+  color: #3163DA;
+}
+
+a:visited {
+  color: #653B86;
+}
+
+a:hover {
+  color: #A34646;
+}
+
+
+a:active {
+  color: yellow;
+}
+
+a.portfolio:link{
+	color: black;
+}
+
+input[type=text] {
+  width: 100px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+input[type=text]:focus {
+  width: 150px;
+	background-color: #D0D0D0;
+	opacity: 0.75;
+}
+input{
+		background-color: #D0D0D0;
+	width: 100px;
+		opacity: 0.75;
+
+
+}
